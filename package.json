@@ -1,0 +1,31 @@
+{
+  "name": "dreameditor-omni",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/model.test.js",
+    "test:e2e": "playwright test",
+    "check": "npm run test && npm run build && npm run test:e2e",
+    "format": "prettier --write src tests docs *.js *.json *.html *.md scripts",
+    "format:check": "prettier --check src tests docs *.js *.json *.html *.md scripts",
+    "package": "npm run build && node scripts/package.mjs",
+    "start": "node scripts/serve.mjs",
+    "test:release": "node scripts/smoke-release.mjs"
+  },
+  "dependencies": {
+    "lucide": "0.468.0",
+    "three": "0.181.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "prettier": "3.6.2",
+    "vite": "6.4.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
