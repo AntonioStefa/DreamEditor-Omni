@@ -1,6 +1,6 @@
 # DreamEditor — Creative Studio
 
-**Scarica il prototipo:** [DreamEditor 0.1 — ZIP pronto da avviare](https://github.com/AntonioStefa/DreamEditor-Omni/releases/download/v0.1.0/DreamEditor-Prototype-0.1.zip) · [Pagina della release](https://github.com/AntonioStefa/DreamEditor-Omni/releases/tag/v0.1.0)
+**Scarica il prototipo:** [DreamEditor 0.1 — ZIP pronto da avviare](https://github.com/AntonioStefa/DreamEditor-Omni/raw/refs/heads/main/downloads/v0.1.0/DreamEditor-Prototype-0.1.zip) · [Pagina della release](https://github.com/AntonioStefa/DreamEditor-Omni/releases/tag/v0.1.0)
 
 Il pacchetto contiene l’app compilata, sei esempi, un modello OBJ e gli avviatori. Richiede Node.js 22 o successivo. La [visione originale del progetto](docs/VISIONE_ORIGINALE.md) è conservata nella documentazione.
 
